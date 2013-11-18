@@ -6,7 +6,10 @@
   },
   "description": "Node.js client for PredioctionIO",
   "main": "index.js",
-  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kostyantyn/PredictionIO-NodeJS-Client.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
