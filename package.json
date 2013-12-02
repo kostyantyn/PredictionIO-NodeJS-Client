@@ -1,17 +1,22 @@
 {
   "name": "predictionio-client",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "dependencies": {
-    "request": "~2.27.0"
+    "request": "~2.27.0",
+    "qs": "~0.6.5"
   },
-  "description": "Node.js client for PredioctionIO",
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "nock": "~0.23.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "description": "PredioctionIO client for Node.js",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/kostyantyn/PredictionIO-NodeJS-Client.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kostyantyn Stepanyuk",
   "license": "BSD-2-Clause"
