@@ -15,7 +15,7 @@ Manage users
 ```javascript
 var prediction = require('predictionio');
 prediction.user.getUser(userId, customOptions, callback);
-prediction.user.postUser(userId, customOptions, callback);
+prediction.user.createUser(userId, customOptions, callback);
 prediction.user.deleteUser(userId, customOptions, callback);
 ```
 
