@@ -23,7 +23,7 @@ Manage items
 ```javascript
 var prediction = require('predictionio');
 prediction.item.getItem(itemId, customOptions, callback);
-prediction.item.postItem(itemId, customOptions, callback);
+prediction.item.postItem(itemId, itemTypes, customOptions, callback);
 prediction.item.deleteItem(itemId, customOptions, callback);
 ```
 
