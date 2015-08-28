@@ -7,7 +7,7 @@ Set up PredictionIO credentials
 ```javascript
 var prediction = require('predictionio');
 prediction.config.APP_KEY = '...';
-prediction.config.APP_URL = 'http://localhost:8000' // default
+prediction.config.APP_HOST = 'http://localhost:8000' // default
 ```
 
 ## Usage
